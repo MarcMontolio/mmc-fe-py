@@ -1,0 +1,27 @@
+table.tabla-gen {
+    border-color: white;
+    border: 2px solid;
+    background-color: blue;
+    width: 500px
+}
+
+tr.title {
+    color:palegreen;
+    text-align: center;
+    background-color:  #001b1d;
+    
+}
+
+tr.par {
+    background-color: lightgreen
+    
+
+}
+
+tr.impar {
+    background-color: greenyellow;
+}
+
+table, th, td {
+    border: 1px solid black;
+  }

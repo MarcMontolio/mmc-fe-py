@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(253, 237, 209);
+    margin: 0 0 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#title {
+    background-color: chocolate;
+    padding-left: 10px;
+}
+
+#subtitle {
+    font-style: italic;
+    color: rgb(68, 149, 255);
+    font-size: 30px;
+    padding-left: 10px;
+}
+
+.theme {
+    color: rgb(68, 149, 255);
+    padding-left: 10px;
+    font-style: italic;
+}
+
+.subtheme {
+    padding-left: 30px;
+
+}
+
+#ingredients, #preparation {
+    font-style: normal;
+}

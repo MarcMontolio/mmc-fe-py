@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./CSS/style.css" />
+    
+  </head>
+  <body>
+    <table>
+        <div id="memory" class="memoryTimer"></div>
+      <tr>
+        <td colspan="4"><input id="inputID" type="text" placeholder="0" /></td>
+      </tr>
+      <tr>
+        <td><button class="greyButton" onclick="cleanInput()">C</button></td>
+        <td><button class="greyButton" onclick="inverso()">+/-</button></td>
+        <td><button class="greyButton" onclick="porciento()">%</button></td>
+        <td><button class="orangeButton" onclick="operacionFunction('/')">&#247;</button></td>
+      </tr>
+      <tr>
+        <td><button class="darkButton" onclick="add(7)">7</button></td>
+        <td><button class="darkButton" onclick="add(8)">8</button></td>
+        <td><button class="darkButton" onclick="add(9)">9</button></td>
+        <td><button class="orangeButton" onclick="operacionFunction('*')">X</button></td>
+      </tr>
+      <tr>
+        <td><button class="darkButton" onclick="add(4)">4</button></td>
+        <td><button class="darkButton" onclick="add(5)">5</button></td>
+        <td><button class="darkButton" onclick="add(6)">6</button></td>
+        <td><button class="orangeButton" onclick="operacionFunction('-')">-</button></td>
+      </tr>
+      <tr>
+        <td><button class="darkButton" onclick="add(1)">1</button></td>
+        <td><button class="darkButton" onclick="add(2)">2</button></td>
+        <td><button class="darkButton" onclick="add(3)">3</button></td>
+        <td><button class="orangeButton" onclick="operacionFunction('+')">+</button></td>
+      </tr>
+      <tr>
+        <td colspan="2"><button class="ceroButton" onclick="add(0)">0</button></td>
+        <td><button class="darkButton" onclick="add('.')">,</button></td>
+        <td><button class="orangeButton" onclick="igual('=')">=</button></td>
+      </tr>
+      <tr>
+        <td><button class="orangeButton" onclick="cuadrado()">X&#178;</button></td>
+        <td><button class="orangeButton" onclick="cubo()">X&#179;</button></td>
+        <td><button class="orangeButton" onclick="pi()">PI</button></td>
+        <td><button class="orangeButton" onclick="raiz()">&#8730;</button></td>
+      </tr>
+      <tr>
+        <td><button class="orangeButton" onclick="memoryRead()">mr</button></td>
+        <td><button class="orangeButton" onclick="memoryPlus()">m+</button></td>
+        <td><button class="orangeButton" onclick="memorySubstract()">m-</button></td>
+        <td><button class="orangeButton" onclick="memoryClear()">mc</button></td>
+      </tr>
+    </table>
+<script src="./JS/main.js"></script>
+</body>
+</html>

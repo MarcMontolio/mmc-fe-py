@@ -1,0 +1,72 @@
+body {
+    background-color: aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 3px;
+    
+}
+
+#panoramica {
+    width: 100%;
+    margin: 20px 20px 20px 0px;
+}
+
+#title{
+    text-align: center;
+    color: green;
+
+}
+
+#title2 {
+    color: orange
+}
+
+#linklist {
+    padding-left: 10px;
+    background-color: linear-gradient(green, white);
+    vertical-align: middle;
+    list-style: none;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px black solid;
+    background-image:linear-gradient(180deg, white, #b4dd56);
+    width: 150px;
+    height: 40px;
+    margin-top:3px;
+    margin-right: 10px;
+    color: rgb(90, 96, 68);
+}
+
+#maintext {
+    padding-left: px; 
+    display: flex;
+}
+
+#introduction {
+    border: 1px grey solid;
+    padding-left: 15px; 
+    background-color: rgb(254, 254, 254); 
+}
+
+#species {
+    border: 1px grey solid;
+    padding-left: 15px; 
+    background-color: rgb(254, 254, 254);
+}
+
+#subtitle {
+    margin-bottom: 0px;
+    color: #b4dd56;
+}
+
+#hrule {
+    margin-top: 0px;
+    color: #b4dd56;
+}
+
+.theme {
+    color: orange;
+}
